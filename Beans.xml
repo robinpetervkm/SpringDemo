@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<bean id="myInsurance" class="com.norha.spring.BikeInsurance">
-		<property name="offers" ref="off"></property>
+		<property name="robin" ref="off"></property>
 	</bean>
 	
 	<bean id="off" class="com.norha.spring.Offers"></bean>

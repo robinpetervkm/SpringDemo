@@ -3,11 +3,11 @@ package com.norha.spring;
 public class BikeInsurance implements Insurance {
 	private Offers offers;
 	
-	public Offers getOffers() {
+	public Offers getOfferS() {
 		return offers;
 	}
 
-	public void setOffers(Offers o) {
+	public void setRobin(Offers o) {
 		this.offers = o;
 	}
 
