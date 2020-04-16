@@ -1,4 +1,4 @@
-package com.norah.spring;
+package com.norha.spring;
 
 public interface Insurance {
 	
