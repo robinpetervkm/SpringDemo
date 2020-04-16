@@ -1,19 +1,19 @@
 package com.norha.spring;
 
 public class BikeInsurance implements Insurance {
-	private Offers offers;
+	private Offers insuranceOffers;
 	
-	public Offers getOfferS() {
-		return offers;
+	public Offers getInsuranceOffers() {
+		return insuranceOffers;
 	}
 
-	public void setRobin(Offers o) {
-		this.offers = o;
+	public void setInsuranceOffers(Offers o) {
+		this.insuranceOffers = o;
 	}
 
 	@Override
 	public String showStatus() {
-		System.out.println(offers.getOffer());
+		System.out.println(insuranceOffers.getOffer()+" BIKE DISCOUNT 5%");
 		return "Your Bike is Insured";
 	}
 

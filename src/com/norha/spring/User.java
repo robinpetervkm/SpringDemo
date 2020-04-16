@@ -8,6 +8,7 @@ public class User {
 		FileSystemXmlApplicationContext context = new FileSystemXmlApplicationContext("Beans.xml");
 		Insurance status = context.getBean("myInsurance",Insurance.class);
 		System.out.println(status.showStatus());
+		System.out.println(status.getInsuranceOffers().getOffer());
 		context.close();
 	}
 }
